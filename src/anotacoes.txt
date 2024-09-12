@@ -1,0 +1,333 @@
+# Modulo 1
+
+## Aula 1
+
+**Apresentação do java**
+
+**Preparação do ambiente**
+
+**JVM  -** A JVM é uma ferramenta muito importante no mundo Java, pois ela permite que uma aplicação possa ser executada em múltiplos sistemas operacionais distintos
+
+**JRE -** JRE (Java Runtime Environment) - Ambiente de Execução do Java que fornece as bibliotecas padrões do Java
+
+**JDK -** JDK (Java Development Kit) - Kit de Desenvolvimento Java responsável por compilar código-fonte
+
+**Criando a PrimeiraClasse**
+
+   Executando um olá mundo
+
+**Exercícios do modulo**
+
+- [ ]  Crie um projeto Java no IntelliJ que deve conter uma classe chamada `Perfil`, com o método main, que ao executar deverá imprimir um cumprimento personalizado no console. Por exemplo, "Olá, [Seu Nome]!".
+- [ ]  Modifique o programa para imprimir uma segunda mensagem de cumprimento personalizada. Por exemplo, "Tudo bem?".
+- [ ]  Crie uma classe chamada `Estudos` para imprimir anotações de estudos no console.
+- [ ]  Crie uma classe `Soma` em Java para imprimir no console o resultado da operação 10 + 5. Certifique-se de que o resultado seja exibido sem o uso de aspas, apresentando o valor "15" ao invés da expressão "10+5".
+- [ ]  Crie uma classe `Subtracao` para imprimir o resultado de `10 - 5` no console.
+
+---
+
+## Aula 2
+
+**Tipos de operadores**
+
+**Atribuição -** são usados para atribuir um valor a uma variável.
+
+`int valor =  5;  //Atribui o valor 5 à variável valor`
+
+**Atribuição combinados**
+
+```java
+int valor =  10;
+valor += 15;  //Equivalente a valor = valor + 15, atribui o valor 25 à variável valor
+```
+
+**Aritméticos**
+
+```cpp
+int a = 10 + 5; // Atribui o valor 15 à variável a
+int b = 10 - 5; // Atribui o valor 5 à variável b
+int c = 10 * 5; // Atribui o valor 50 à variável c
+int d = 10 / 5; // Atribui o valor 2 à variável d
+int e = 10 % 3; // Atribui o valor 1 à variável e (o resto da divisão de 10 por 3 é 1)
+```
+
+**Relacionais**
+
+- "==" (igual a)
+- "!=" (diferente de)
+- ">" (maior que)
+- ">=" (maior ou igual a)
+- "<" (menor que)
+- "<=" (menor ou igual a)
+
+```java
+int a = 10; // Atribui o valor 10 à variável a
+int b = 5; // Atribui o valor 5 à variável b
+int c = 30; // Atribui o valor 30 à variável c
+
+boolean igual = (b == a); //Nesse caso a variável igual ficará com o valor *false*, pois o valor de b não é igual o valor de a.
+boolean diferente = (b != c); //A variável diferente ficará com o valor *true*, pois o valor de b é diferente do valor de c.
+boolean maior = (b > a); //A variável maior ficará com o valor *false*, pois o valor de b é menor que o valor de a.
+boolean menorIgual = (b <= c); //A variável menorIgual ficará com o valor *true*, pois o valor de b é menor que o valor de c.
+```
+
+**Lógicos**
+
+São três operadores: **AND (&&), OR (||) e NOT (!).**
+
+**&&** - Verifica se duas condições são verdadeiras, se forem ele passa com sucesso, caso contrário ele falha
+
+```java
+boolean a = true;
+boolean b = false;
+if (a && b) {
+   // Este código não será executado, já que a é verdadeiro e b é falso.
+}
+```
+
+**||** - Verifica se pelo menos Uma das condições são verdadeiras, se uma for passa só falha se ambas forem falsas
+
+```java
+boolean a = true;
+boolean b = false;
+if (a || b) {
+   // Este código será executado, já que a é verdadeiro, mesmo que b seja falso.
+}
+```
+
+**!** - negar um condição, se for verdadeira o resultado será falso e vice e versa.
+
+```java
+boolean a = true;
+if (!a) {
+   // Este código não será executado, já que a é verdadeiro.
+}
+```
+
+**Incremento**
+
+O operador de **pré-incremento (++variavel)** aumenta o valor da variável em 1 antes de usar a variável em uma expressão. Aqui está um exemplo:
+
+```csharp
+int num = 5;
+int resultado = ++num; //num é incrementado para 6 e depois atribuído a resultado
+System.out.println(num); // imprime 6
+System.out.println(resultado); // imprime 6
+
+```
+
+Já o operador de **pós-incremento (variavel++)** aumenta o valor da variável em 1 depois de usar a variável em uma expressão. Aqui está um exemplo:
+
+```csharp
+int num = 5;
+int resultado = num++; //num é atribuído primeiramente à variável resultado e depois incrementado para 6
+System.out.println(num); // imprime 6
+System.out.println(resultado); // imprime 5
+```
+
+**Tipos de variáveis**
+
+**boolean -** O tipo boolean é utilizado para representar valores lógicos, podendo assumir apenas dois valores: true ou false. É utilizado em expressões condicionais, loops e outros casos onde se deseja avaliar se uma determinada condição é verdadeira ou falsa.
+
+**byte -** O tipo byte é utilizado para representar valores numéricos inteiros de 8 bits. Ele possui uma faixa de valores de -128 a 127.
+
+**char -** O tipo char é utilizado para representar caracteres individuais. Ele pode armazenar qualquer caractere Unicode e é representado por aspas simples ('').
+
+**short -** O tipo short é utilizado para representar valores numéricos inteiros de 16 bits. Ele possui uma faixa de valores de -32.768 a 32.767.
+
+**int -** O tipo int é utilizado para representar valores numéricos inteiros de 32 bits. É um dos tipos de dados mais utilizados para representar números inteiros em Java e possui uma faixa de valores de -2.147.483.648 a 2.147.483.647.
+
+**long -** O tipo long é utilizado para representar valores numéricos inteiros de 64 bits. Ele é utilizado para representar valores inteiros muito grandes e possui uma faixa de valores de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807.
+
+**float -** O tipo float é utilizado para representar valores numéricos de ponto flutuante, ou seja, valores com casas decimais, sendo que ocupa 32 bits de memória. Ele pode representar números decimais com até sete dígitos e tem uma precisão limitada, o que significa que ele pode arredondar os números se eles forem muito grandes ou muito pequenos.
+
+**double -** O tipo double é similar o float, entretanto ele ocupa 64 bits de memória e pode representar números decimais com até 15 dígitos.
+
+**String**
+
+Criação
+
+```java
+String saudacao = "Olá, ";
+String nome = "Alura";
+String mensagem = saudacao + nome + "!";
+```
+
+**Comparação de String**
+
+```csharp
+String senha = "12345";
+if (senha.equals("12345")) {
+    System.out.println("Acesso autorizado!");
+} else {
+    System.out.println("Senha incorreta.");
+}
+```
+
+o método `equalsIgnoreCase()`, que é usado para que a comparação de Strings desconsidere as letras maiúsculas e minúsculas. 
+
+**Text Block**
+
+Escrever com quebra de linhas
+
+```python
+String mensagem = """
+                  Olá, mundo!
+                  Este é um Text Block.
+                  Ele permite escrever textos com múltiplas linhas
+                  sem precisar usar caracteres de escape ou quebras de linha manualmente ou concatenações.
+                  """;
+```
+
+**Formação de texto**
+
+o método `format()`, da classe String. Esse método permite formatar um texto utilizando diversos placeholders, que são representados pelo caractere `%` seguido de uma letra que indica o tipo de dado que será inserido no placeholder. Por exemplo, `%s` indica que uma String será inserida no placeholder, `%d` indica um valor inteiro e `%f` indica um valor de ponto flutuante.
+
+```csharp
+String nome = "Maria";
+int idade = 30;
+double valor = 55.9999;
+System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei %.2f reais", nome, idade, valor));
+```
+
+Usando o text block junto
+
+```python
+String nome = "João";
+int aulas = 4;
+
+String mensagem = """
+                  Olá, %s!
+                  Boas vindas ao curso de Java.
+                  Teremos %d aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
+                  """.formatted(nome, aulas);
+
+System.out.println(mensagem);
+```
+
+**Casting - Conversão de valores**
+
+**Implícito** - realizado automaticamente pelo pc
+
+```cpp
+int x = 10;
+double y = x; // casting implícito
+```
+
+**Explícito**
+
+```cpp
+double x = 10.5;
+int y = (int) x; // casting explícito
+```
+
+!https://cdn3.gnarususercontent.com.br/2858-java-criando-primeira-aplicacao/imagem21.png
+
+**Exercícios**
+
+- [ ]  Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit. Utilize variáveis para representar os valores das temperaturas e imprima no console o valor convertido de Celsius para Fahrenheit.
+
+Dica: A fórmula para converter temperaturas de graus Celsius para Fahrenheit é: `(temperatura * 1.8) + 32`.
+
+- [ ]  Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+- [ ]  Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.
+- [ ]  Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra). Atribua valores a essas variáveis e concatene-as em uma mensagem.
+- [ ]  Declare uma variável do tipo double `precoProduto` e uma variável do tipo int (quantidade). Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.
+- [ ]  Declare uma variável do tipo double `valorEmDolares`. Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente a 4.94 reais. Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
+- [ ]  Declare uma variável do tipo double `precoOriginal`. Atribua um valor em reais a essa variável, representando o preço original de um produto. Em seguida, declare uma variável do tipo double `percentualDesconto` e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%). Calcule o valor do desconto em reais, aplique-o ao preço original e imprima o novo preço com desconto.
+
+---
+
+## Aula 3
+
+**Switch case**
+
+A `expressão` é uma variável ou uma expressão de código que será avaliada. Cada `case` é uma possível condição que pode ser atendida pela expressão. Quando a expressão é igual ao valor especificado em um determinado case, o código correspondente a esse case será executado. A palavra-chave **break** é usada para sair do switch case após a execução do código correspondente.
+
+```csharp
+int dia = 3;
+String nomeDia;
+
+switch (dia) {
+   case 1:
+      nomeDia = "domingo";
+      break;
+   case 2:
+      nomeDia = "segunda-feira";
+      break;
+   case 3:
+      nomeDia = "terça-feira";
+      break;
+   case 4:
+      nomeDia = "quarta-feira";
+      break;
+   case 5:
+      nomeDia = "quinta-feira";
+      break;
+   case 6:
+      nomeDia = "sexta-feira";
+      break;
+   case 7:
+      nomeDia = "sábado";
+      break;
+   default:
+      nomeDia = "Dia inválido";
+      break;
+}
+
+System.out.println("O dia " + dia + " é " + nomeDia);
+```
+
+**Scanner**
+
+é utilizada para ler dados de entrada em um programa Java.
+
+Necessário realizar a importação
+
+`import java.util.Scanner;`
+
+```csharp
+public class ExemploScanner {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+        System.out.print("Digite o valor que pFretende investir esse mês: ");
+        double valor = scanner.nextDouble();
+
+        System.out.println(nome + " que tem " + idade + " anos, irá investir R$ " + valor + " esse mês.");
+
+        scanner.close();
+    }
+}
+```
+
+**Estrutura de repetição**
+
+**For**
+
+**While**
+
+Exercício
+
+Crie um programa que simula um jogo de adivinhação, que deve gerar um número aleatório entre 0 e 100 e pedir para que o usuário tente adivinhar o número, em até 5 tentativas. A cada tentativa, o programa deve informar se o número digitado pelo usuário é maior ou menor do que o número gerado.
+
+**Dicas:**
+
+- Para gerar um número aleatório em Java: `new Random().nextInt(100)`;
+- Utilize o Scanner para obter os dados do usuário;
+- Utilize uma variável para contar as tentativas;
+- Utilize um loop para controlar as tentativas;
+- Utilize a instrução `break;` para interromper o loop.
+
+1. Crie um programa que solicite ao usuário digitar um número. Se o número for positivo, exiba "Número positivo", caso contrário, exiba "Número negativo".
+2. Peça ao usuário para inserir dois números inteiros. Compare os números e imprima uma mensagem indicando se são iguais, diferentes, o primeiro é maior ou o segundo é maior.
+3. Crie um menu que oferece duas opções ao usuário: "1. Calcular área do quadrado" e "2. Calcular área do círculo". Solicite a escolha do usuário e realize o cálculo da área com base na opção selecionada.
+4. Crie um programa que solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
+5. Crie um programa que solicite ao usuário a entrada de um número inteiro. Verifique se o número é par ou ímpar e exiba uma mensagem correspondente.
+6. Crie um programa que solicite ao usuário um número e calcule o fatorial desse número.
+
+---
