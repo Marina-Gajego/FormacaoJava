@@ -37,16 +37,13 @@ public class Desafio {
                     opcao = 1;
                     System.out.println("Saldo atual: R$ " + saldo);
                     break;
-
                 case 2:
                     opcao = 2;
                     System.out.println("Informe o valor a receber: R$ ");
                     double valorReceber = scanner.nextDouble();
                     saldo += valorReceber;
-
                     System.out.println("Saldo atualizado: R$ " + saldo);
                     break;
-
                 case 3:
                     opcao = 3;
                     System.out.println("Informe o valor que deseja transfererir: R$ ");
@@ -59,11 +56,9 @@ public class Desafio {
                         System.out.println("Saldo atualizado: R$ " + saldo);
                     }
                     break;
-
                 case 4:
                     opcao = 4;
                     break;
-
                 default:
                     System.out.println("Opção Invalida");
                     break;
