@@ -1,4 +1,6 @@
-thumbnail-Formação Java (2)
+- Formação Java Alura
+https://cursos.alura.com.br/formacao-java
+
 Java: aplicando a Orientação a Objetos
 Projeto desenvolvido no segundo curso da nova formação Java da Alura
 
