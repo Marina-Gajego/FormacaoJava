@@ -5,26 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a83b38-06e9-4b85-a38c-fda6e83a0db9" name="Changes" comment="FormacaoJavaAlura">
-      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/modelos/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Musica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/classes/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercicios/modificadoresAcesso/idadePessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/modelos/Episodio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScreenMatch/modelos/Titulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/GeradorPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/NumerosPrimos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/VerificadorPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/heranca/modeloCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/CalculadoraSalaRetangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Calculavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/CalculoGeometrico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/ConversaoFinanceira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/ConversorMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/ProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/TabuadaMultiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/Vendavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/interfaceExercicios/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Desafio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anotacoes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exericios/Modulo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Modulo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exericios/Modulo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Modulo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exericios/Modulo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/Modulo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormacaoJavaAlura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FormacaoJavaAlura.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScreenMatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScreenMatch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScreenMatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScreenMatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,8 +75,14 @@
     "Application.Modulo2.executor": "Run",
     "Application.Modulo3.executor": "Run",
     "Application.Mudulo1.executor": "Run",
+    "Application.exercicios.interfaceExercicios.main.executor": "Run",
     "Application.exercicios.modificadoresAcesso.Main.executor": "Run",
     "Application.exericios.classes.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -67,26 +90,13 @@
     "onboarding.tips.debug.path": "C:/Users/marin/IdeaProjects/FormacaoJavaAlura/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exercicios.modificadoresAcesso.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ScreenMatch.Main" />
       <module name="FormacaoJavaAlura" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ScreenMatch.modelos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Modulo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicios.Modulo2" />
-      <module name="FormacaoJavaAlura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.heranca.main" />
+      <module name="FormacaoJavaAlura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios.heranca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.exercicios.modificadoresAcesso.Main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.exercicios.modificadoresAcesso.Main" />
         <item itemvalue="Application.exercicios.classes.Main" />
         <item itemvalue="Application.Modulo3" />
-        <item itemvalue="Application.Modulo2" />
       </list>
     </recent_temporary>
   </component>
